@@ -10,8 +10,8 @@ import MovieDetails from './components/MovieDetails';
 
 function App() {
     const [movies, setMovies] = useState([]);
-    // const [totalPages, setTotalPages] = useState(0);
 
+    // The total number of pages is 500 because the API returns only 500 pages
     const totalPages = 500;
 
     const getAllMovices = async () => {
